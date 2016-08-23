@@ -1,4 +1,4 @@
 module.exports = function (req, res, next) {
-  console.log(res.locals.data)
-  next()
+  console.log(Object.keys(res))
+  next(4)
 }
