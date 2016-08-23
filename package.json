@@ -1,0 +1,19 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "See: https://github.com/typicode/json-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaotoday/json-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhaotoday/json-server/issues"
+  },
+  "homepage": "https://github.com/zhaotoday/json-server#readme"
+}
