@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zhaotoday/mock#readme",
   "devDependencies": {
+    "body-parser": "^1.15.2",
     "json-server": "^0.8.18"
   }
 }

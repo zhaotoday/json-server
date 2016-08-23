@@ -1,19 +1,24 @@
 const config = require('./utils/config')
 const routes = require('./utils/routes')
+
 const jsonServer = require('json-server')
+const bodyParser = require('body-parser')
+
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
 server.use(middlewares)
+server.use(bodyParser.urlencoded({ extended: false }));
 
-server.get('/echo', (req, res) => {
+server.get('/blog/*', (req, res) => {
+  console.log(222)
   res.jsonp(req.query)
 })
 
 server.use((req, res, next) => {
   if (req.method === 'POST') {
-    req.body.createdAt = Date.now()
+    req.body.createAt = Date.now()
   }
   next()
 })
