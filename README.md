@@ -6,3 +6,7 @@ npm install
 
 ## 命令
 node server
+
+## 请求
+可使用 chrome 插件 postman 测试。  
+如：GET http://localhost:3000/posts
