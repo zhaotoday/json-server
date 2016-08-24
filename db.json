@@ -1,172 +1,17 @@
 {
-  "posts": [
+  "articles": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 2
-    },
-    {
-      "title": 33,
-      "id": 3
-    },
-    {
-      "name": 33,
-      "id": 4
-    },
-    {
-      "name": 33,
-      "id": 5
-    },
-    {
-      "name": 33,
-      "id": 6
-    },
-    {
-      "name": 33,
-      "id": 7
-    },
-    {
-      "name": 33,
-      "id": 8
-    },
-    {
-      "name": 33,
-      "id": 9
-    },
-    {
-      "name": 33,
-      "id": 10
-    },
-    {
-      "name": 33,
-      "id": 11
-    },
-    {
-      "name": 33,
-      "id": 12
-    },
-    {
-      "name": 33,
-      "id": 13
-    },
-    {
-      "name": 33,
-      "id": 14
-    },
-    {
-      "name": 33,
-      "id": 15
-    },
-    {
-      "name": 33,
-      "id": 16
-    },
-    {
-      "name": 33,
-      "id": 17
-    },
-    {
-      "name": 33,
-      "id": 18
-    },
-    {
-      "name": 33,
-      "id": 19
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "id": 20
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "id": 21
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "id": 22
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "id": 23
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "id": 24
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "id": 25
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "id": 26
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "id": 27
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "id": 28
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "hghg": "hgh",
-      "id": 29
-    },
-    {
-      "id": 30
-    },
-    {
-      "id": 31
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "hghg": "hgh",
-      "id": 32
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "hghg": "hgh",
-      "id": 33
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "hghg": "hgh",
-      "id": 34
-    },
-    {
-      "name": 33,
-      "dddd": "ddd",
-      "hghg": "hgh",
-      "createAt": 1471971223820,
-      "id": 35
+      "title": "the title of the article",
+      "content": "the content of the article"
     }
   ],
   "comments": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "title": "the title of the comment",
+      "content": "the content of the comment",
+      "article_id": "the article id of the comment"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
