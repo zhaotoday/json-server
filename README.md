@@ -4,7 +4,7 @@ https://github.com/typicode/json-server
 ## 安装
 npm install
 
-## 命令
+## 启动服务
 node server
 
 ## 请求
