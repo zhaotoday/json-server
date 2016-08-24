@@ -4,6 +4,11 @@
       "id": 1,
       "title": "the title of the article",
       "content": "the content of the article"
+    },
+    {
+      "id": 2,
+      "title": "the title of the article",
+      "content": "the content of the article"
     }
   ],
   "comments": [
@@ -11,7 +16,7 @@
       "id": 1,
       "title": "the title of the comment",
       "content": "the content of the comment",
-      "article_id": "the article id of the comment"
+      "article_id": 1
     }
   ]
 }
